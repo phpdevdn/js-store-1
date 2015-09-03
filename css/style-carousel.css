@@ -1,0 +1,63 @@
+#crs-slider, #crs-slider-1 {
+  border: 2px solid #ddd;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.crs-images {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0;
+  white-space: nowrap;
+  position: relative;
+  top: 0;
+  left: 0; }
+  .crs-images .crs-img {
+    display: inline-block;
+    width: 33.33%; }
+    .crs-images .crs-img img {
+      max-width: 100%;
+      border: 5px solid #fff; }
+
+.crs-direct a {
+  position: absolute;
+  top: 33%;
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  z-index: 500;
+  border-radius: 50%;
+  background: rgba(51, 51, 51, 0.73);
+  color: #fff; }
+  .crs-direct a:hover, .crs-direct a:active, .crs-direct a:link {
+    text-decoration: none;
+    opacity: 0.7; }
+
+.crs-direct .prev {
+  left: 30px; }
+
+.crs-direct .next {
+  right: 30px; }
+
+ol.crs-pos {
+  width: 100%;
+  margin: 5px auto;
+  padding: 5px 0;
+  text-align: center;
+  list-style: none; }
+  ol.crs-pos li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 8px;
+    background: #fff;
+    border: 1px solid #777;
+    cursor: pointer; }
+    ol.crs-pos li.active {
+      background: #333; }
+
+/*# sourceMappingURL=style-carousel.css.map */

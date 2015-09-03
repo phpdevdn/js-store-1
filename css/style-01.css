@@ -1,0 +1,139 @@
+.main-content {
+  position: relative;
+  margin: 50px auto 0;
+  padding-bottom: 20px; }
+
+.mycarousel {
+  position: relative;
+  border: 2px solid #eee;
+  margin: 30px auto 0;
+  padding: 10px;
+  width: 80%; }
+  .mycarousel ol {
+    list-style: none;
+    padding: 5px 0;
+    margin: 5px 0 0;
+    text-align: left;
+    z-index: 200; }
+    .mycarousel ol li {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      border: 1px solid #ddd;
+      cursor: pointer;
+      background: #fff;
+      margin: 0 5px 0 0; }
+      .mycarousel ol li.active {
+        background: #333; }
+      .mycarousel ol li:hover {
+        background: #333; }
+
+.car-direct {
+  position: absolute;
+  bottom: 15px;
+  right: 25px; }
+  .car-direct a {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 11px; }
+
+.car-image {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+  .car-image .img-ite {
+    width: 100%;
+    display: none; }
+    .car-image .img-ite.active {
+      display: block; }
+  .car-image img {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    border: 2px solid #eee;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left; }
+  .car-image .text {
+    display: block;
+    width: 24%;
+    margin: 5%;
+    float: right;
+    position: relative;
+    top: 0;
+    right: 0; }
+
+@media screen and (max-width: 640px) {
+  .car-image img {
+    width: 100%; }
+  .car-image .text {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.66);
+    margin: 0;
+    padding: 0px 2%; } }
+
+/**** slider 02 ***/
+.block-02 {
+  padding: 0;
+  max-width: 1920px;
+  margin: 50px auto 0; }
+
+#row-slider-01 {
+  margin: 0 0 0;
+  padding: 0 0;
+  background: #fff url("../img/bg-02.jpg") repeat-y 50% 1000px fixed;
+  overflow: hidden; }
+  #row-slider-01 .mycarousel {
+    border: none;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0; }
+    #row-slider-01 .mycarousel ol {
+      position: relative;
+      bottom: 0;
+      float: right;
+      right: 0;
+      margin: 0;
+      padding: 0; }
+      #row-slider-01 .mycarousel ol li {
+        display: block;
+        border-radius: 50%; }
+  #row-slider-01 .car-image {
+    overflow: visible; }
+    #row-slider-01 .car-image .img-ite {
+      padding: 50px 0; }
+    #row-slider-01 .car-image img {
+      width: 40%;
+      background: none;
+      border: none; }
+    #row-slider-01 .car-image .text {
+      width: 38%;
+      color: #fff; }
+
+.car-bullet {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 81px; }
+  .car-bullet .car-arrow {
+    position: absolute;
+    background: url("../img/arrow.png") no-repeat;
+    top: -25px;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-size: 60px 60px; }
+
+/*# sourceMappingURL=style-01.css.map */
